@@ -94,6 +94,7 @@ public class CharacterControllerSide : MonoBehaviour
 
         while (count > 0)
         {
+            //per
             countdownText.text = count.ToString();
             yield return new WaitForSeconds(1f);
             count--;
